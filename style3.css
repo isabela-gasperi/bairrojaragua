@@ -1,0 +1,146 @@
+@import url('https://rsms.me/inter/inter.css');
+body {
+    background-color: black;
+    font-family: 'Inter', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+    align-items: center;
+}
+
+.título-principal {
+    color: white;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#tittle {
+    flex-direction: column;
+    line-height: 10px;
+}
+
+li {
+    display: inline-block;
+    margin: 20px;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: #076318;
+    transition: 0,3s all;
+}
+
+h1 {
+    font-weight: 200;
+}
+
+span {
+    color: #076318;
+}
+
+p {
+    line-height: 20px;
+    max-width: 500px;
+    font-family: 'Inter', sans-serif ;
+}
+
+.conteudo-header-diferencias {
+    border: 2px solid #076318;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.conteudo-header-diferencias:hover {
+    background-color: #076318;
+    color: white;
+}
+
+#contéudo {
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    color: rgb(255, 255, 255);
+    width: 900px;
+}
+
+p { 
+    margin: 0 auto;
+}
+
+h1 {
+    margin: 0 auto;
+    color: white;
+}
+
+img {
+    width: 650px;
+}
+
+a:hover {
+    color: #076318;
+    transition: 0,3s all;
+}
+
+#conteudo-porque-o-bairro-e-conhecido {
+    color: white;
+    text-align: center;
+}
+
+#conteudo-pico-do-jaragua {
+    color: white;
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+}
+
+#parque-estadual-jaragua {
+    float: center;
+    width: 500px;
+}
+
+#parque-estadual-do-jaragua {
+    color: white;
+}
+
+#parque-estadual-jaragua-texto {
+    text-align: center;
+    color: white;
+}
+
+a {
+    text-align: justify;
+}
+
+#foto-pico-do-jaragua {
+    float: center;
+    width: 500px;
+}
+
+#foto-pico-do-jaragua2 {
+    float: center;
+    width: 500px;
+}
+
+.conteudo-header-diferencias {
+    border: 2px solid #076318;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.conteudo-header-diferencias:hover {
+    background-color: #076318;
+    color: white;
+}
+
+p {
+    color: white;
+}

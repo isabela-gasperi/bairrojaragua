@@ -1,0 +1,385 @@
+@import url('https://rsms.me/inter/inter.css');
+body {
+    background-color: black;
+    font-family: 'Inter', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+    align-items: center;
+}
+
+.título-principal {
+    color: white;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#tittle {
+    flex-direction: column;
+    line-height: 10px;
+}
+
+li {
+    display: inline-block;
+    margin: 20px;
+}
+
+a {
+    color: white;
+}
+
+
+h1 {
+    font-weight: 200;
+}
+
+span {
+    color: #076318;
+}
+
+p {
+    line-height: 20px;
+    max-width: 500px;
+    font-family: 'Inter', sans-serif ;
+    color: white;
+}
+
+
+#contéudo {
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    color: rgb(255, 255, 255);
+    width: 900px;
+}
+
+p {
+    
+    margin: 0 auto;
+}
+
+h1 {
+    margin: 0 auto;
+    color: white;
+}
+
+img {
+    width: 650px;
+}
+
+.conteudo-educacao {
+    color: white;
+    text-align: center;
+}
+
+#conteudo-educacao-vaccaro {
+    width: 37px;
+}
+
+a:hover {
+    color: #076318;
+    transition: 0,3s all;
+}
+
+#informacoes-demograficas {
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    color: rgb(255, 255, 255);
+    width: 900px;
+}
+
+#conteudo-informacoes-demograficas {
+    display: flex;
+}
+
+#conteudo-informacoes-demograficas2 {
+    text-align: center;
+    align-items: center;
+    margin: 0px;
+    margin-left: 200px
+}
+
+#conteudo-lazer {
+    color: white;
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+p {
+    color: white;
+}
+
+#conteudo-lazer2 {
+    color: white;
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+.ct-imagem {
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    margin: 0 auto;
+  }
+  
+  .ct-imagem .img {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transition: opacity 500ms;
+    width: 300px; 
+    margin: 0 auto;
+  }
+  
+  .ct-imagem .img.frente {
+    z-index: 2;
+  }
+  
+  .ct-imagem .img.tras {
+    z-index: 1;
+    opacity: 0;
+  }
+  
+  .ct-imagem#sem-js:hover .img.frente {
+    opacity: 0;
+  }
+  
+  .ct-imagem#sem-js:hover .img.tras {
+    opacity: 1;
+  }
+
+  #contéudo {
+    width: 800px; 
+    margin: 0 auto;
+  }
+
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 450px;
+    height: 400px;
+}
+.main-heading {
+    padding: 2rem 0 2rem 0;
+}
+.content {
+    position: relative;
+}
+.carousel-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 50;
+}
+
+.carousel-heading {
+    font-size: 3rem;
+    color: #308d46;
+    margin-bottom: 1rem;
+}
+.slideshow {
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.slideshow-wrapper {
+    display: flex;
+    width: 400%;
+    height: 100%;
+    position: relative;
+    animation: slideshow 20s infinite;
+}
+.slide {
+    width: 100%;
+    height: 100%;
+}
+
+.slide-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@keyframes slideshow {
+    0% {
+        left: 0;
+    }
+
+    10% {
+        left: 0;
+    }
+
+    15% {
+        left: -100%;
+    }
+
+    25% {
+        left: -100%;
+    }
+
+    30% {
+        left: -200%;
+    }
+
+    40% {
+        left: -200%;
+    }
+
+    45% {
+        left: -300%;
+    }
+
+    55% {
+        left: -300%;
+    }
+
+    60% {
+        left: -200%;
+    }
+
+    70% {
+        left: -200%;
+    }
+
+    75% {
+        left: -100%;
+    }
+
+    85% {
+        left: -100%;
+    }
+
+    90% {
+        left: 0%;
+    }
+}
+.slide-btn {
+    background-color: #006750;
+    border-radius: 50%;
+    border: .2rem solid #007863;
+    width: 1.2rem;
+    height: 1.2rem;
+    outline: none;
+    cursor: pointer;
+    position: absolute;
+    bottom: 3%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 70;
+}
+.slide-btn-1 {
+    left: 45%;
+}
+
+.slide-btn-2 {
+    left: 50%;
+}
+
+.slide-btn-3 {
+    left: 55%;
+}
+
+.slide-btn-4 {
+    left: 60%;
+}
+
+.slide-btn-1:focus~.slideshow-wrapper {
+    animation: none;
+    left: 0;
+}
+
+.slide-btn-2:focus~.slideshow-wrapper {
+    animation: none;
+    left: -100%;
+}
+
+.slide-btn-3:focus~.slideshow-wrapper {
+    animation: none;
+    left: -200%;
+}
+
+.slide-btn-4:focus~.slideshow-wrapper {
+    animation: none;
+    left: -300%;
+}
+
+.slide-btn:focus {
+    background-color: #008b76;
+}
+
+a:hover {
+    color: #076318;
+    transition: 0,3s all;
+}
+
+h2 {
+    color: white;
+}
+
+#conteudo-curiosidades-texto {
+    width: 300px;
+    margin: 0 auto;
+}
+
+table {
+    width: 300px
+}
+
+#jaragua-ciclismo{
+    float: center;
+    width: 350px;
+}
+  
+#parques-jaragua {
+    float: center;
+    width: 350px;
+}
+
+#jaragua-esportes {
+    float: center;
+    width: 370px;
+}
+
+#tabela-lazer {
+    color: white;
+    margin: 0 auto;
+}
+
+table {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#foto-jaragua {
+    float: left;
+    width: 500px;
+}
+
+.conteudo-header-diferencias {
+    border: 2px solid #076318;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.conteudo-header-diferencias:hover {
+    background-color: #076318;
+    color: white;
+}
